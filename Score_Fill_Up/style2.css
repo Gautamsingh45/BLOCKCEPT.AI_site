@@ -1,0 +1,39 @@
+body{
+    background-color:  grey;
+}
+.login{
+    position: absolute;
+    color: #27AE60;
+    top: 60px;
+    right: 0px;
+  }
+  .login ul li{
+    margin-top: 40px;
+    margin-right: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .logo img{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+  }
+  .container{
+    width: 500px;
+    height: 220px;
+    text-align: center;
+    border: 2px solid blanchedalmond;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: #27AE60;
+  }
+  label{
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+  }
+  input{
+    border-radius: 10px;
+  }
