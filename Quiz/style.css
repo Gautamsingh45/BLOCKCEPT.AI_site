@@ -8,8 +8,35 @@
 }
 
 body{
-    background: #007bff;
+    /* background: #010d1aa5; */
+    background-image: url(./image1/Quiz.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+.login{
+    position: absolute;
+    color: #27AE60;
+    top: 60px;
+    right: 0px;
+  }
+.box image{
+    height: 400px;
+    width: 300px;
+    border: 2px solid beige;
+}
+  .login ul li{
+    margin-top: 40px;
+    margin-right: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .logo img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+  }
 
 ::selection{
     color: #fff;
@@ -376,7 +403,11 @@ footer button.show{
     color: #007bff;
     background: #fff;
 }
-
+.buttons .score a{
+    text-decoration: none;
+    color: #007bff;
+    
+}
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
